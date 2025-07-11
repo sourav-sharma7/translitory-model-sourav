@@ -1,8 +1,11 @@
 ### Take-Home Assignment: Transliteration Model with Aksharantar Dataset 
 
 # DOCKER BUILD COMMAND 
+```bash
+# Build the Docker image and run the container
 docker build -t translit-fullstack .
 docker run -p 3000:3000 translit-fullstack
+```
 
 
 # Model Training code is in the train-model.ipynb file
